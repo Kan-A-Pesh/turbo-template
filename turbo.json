@@ -10,12 +10,33 @@
     "lint": {
       "dependsOn": ["^lint"]
     },
-    "check-types": {
-      "dependsOn": ["^check-types"]
+    "types:check": {
+      "dependsOn": ["^types:check"]
     },
     "dev": {
       "cache": false,
       "persistent": true
+    },
+    "db:check": {
+      "cache": false
+    },
+    "db:migrate": {
+      "cache": false
+    },
+    "db:studio": {
+      "cache": false
+    },
+    "db:generate": {
+      "cache": false
+    },
+    "db:push": {
+      "cache": false
+    },
+    "auth:generate": {
+      "cache": false
+    },
+    "ui:add": {
+      "cache": false
     }
   }
 }
