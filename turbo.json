@@ -37,6 +37,12 @@
     },
     "ui:add": {
       "cache": false
+    },
+    "format:check": {
+      "cache": false
+    },
+    "checks": {
+      "cache": false
     }
   }
 }
